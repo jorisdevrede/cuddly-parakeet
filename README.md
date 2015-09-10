@@ -1,2 +1,2 @@
 # cuddly-parakeet
-Python scripts for fumbling around
+Python scripts for chunking xml sources and processing them in parallel.
