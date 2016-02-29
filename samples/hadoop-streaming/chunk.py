@@ -26,7 +26,10 @@ class Chunk:
 
     def cut(self, stream, start, end):
         """Cuts an inputstream into chunks and feeds it to Processor.do()
-        
+        :param stream standard inputstream:
+        :param start index within the inputstream to start processing:
+        :param end index within the input stream to end end processing:
+
         """
         cbuffer = None
         intag = False
